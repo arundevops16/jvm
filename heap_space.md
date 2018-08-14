@@ -1,9 +1,9 @@
 
-Analyzing Heap space for the tomcat application running on my local machine by using J Visual VM:
+# Analyzing Heap space for the tomcat application running on my local machine by using J Visual VM:
 
 Need for analysis: High memory usage is still one of the most frequent problems that we see and they often have performance implications.
 
-Analysis:
+# Analysis:
 
 #Whenever we run any java application on our local machine we can monitor that application and we can analyze the heap space consumed by that application using the j visual vm.
 
