@@ -5,7 +5,7 @@ Need for analysis: High memory usage is still one of the most frequent problems 
 
 # Analysis:
 
-#Whenever we run any java application on our local machine we can monitor that application and we can analyze the heap space consumed by that application using the j visual vm.
+#Whenever we run any Java application on our local machine we can monitor that application and we can analyze the heap space consumed by that application using the j visual vm.
 
 #I am analyzing the tomcat application which was running on my machine.
 
@@ -17,11 +17,11 @@ Need for analysis: High memory usage is still one of the most frequent problems 
 
 ![jvm](https://github.com/arunkundrupu1990/jvm/blob/master/02%20Screenshot%20from%202018-08-14%2014-58-19.png)
 
-#Whenever request comes to tomact application then heap memory of my applications increasing  and reaches the maximum limit allocated to heap memory by the JVM. Here the dynamic memory is storing in heap space. Due to this my application may runs slowly.
+#Whenever request comes to tomcat application then heap memory of my applications increasing  and reaches the maximum limit allocated to heap memory by the JVM. Here the dynamic memory is storing in heap space. Due to this my application may runs slowly.
 
 ![jvm](https://github.com/arunkundrupu1990/jvm/blob/master/03%20Screenshot%20from%202018-08-14%2015-01-33.png)
 
-#If the heap memory is full then grabage collector will clean up the heap of unreferenced or dead objects.
+#If the heap memory is full then garbage collector will clean up the heap of unreferenced or dead objects.
 
 #If we used heap dump then memory allocated for heap space increased (In my case it increased upto 600MB). Also it cleans the heap memory used by the application.
 
